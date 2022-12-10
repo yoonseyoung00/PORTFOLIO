@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-header{width: 393px; height: 75px;z-index: 10;position: relative;background-color: #1A1A1A;}
+header{width: 100%; height: 75px;z-index: 10;position: relative;background-color: #1A1A1A;}
 header > nav{position: relative;}
 header > nav > .menu{width: 19px; height: 13px;border: 0px solid red;display: block;background-image: url('img/m_menu.png');position: absolute;right: 35px;top: 43px;}
 
@@ -32,6 +32,10 @@ header > .nav_menu.active{display: flex;}
     background-repeat: repeat;
     background-color: #1A1A1A;
     z-index: 1;
+}
+.cont01 img{
+    width: 371px;
+
 }
 .box2{
     width: 100%;

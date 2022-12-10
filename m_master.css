@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-header{width: 393px; height: 75px;z-index: 10;position: relative;background-color: #1A1A1A;}
+header{width: 100%; height: 75px;z-index: 10;position: relative;background-color: #1A1A1A;}
 header > nav{position: relative;}
 header > nav > .menu{width: 19px; height: 13px;border: 0px solid red;display: block;background-image: url('img/m_menu.png');position: absolute;right: 35px;top: 43px;}
 
@@ -31,10 +31,13 @@ header > .nav_menu.active{display: flex;}
 
 .wrap1{
     position: relative;
-    width: 393px;
+    width: 371px;
     height: 250px;
     border: 0px solid red;
     margin: 0 auto;
+}
+.cont01 img{
+    width: 371px;
 }
 
 .box2{
